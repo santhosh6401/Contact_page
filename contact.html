@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact Page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<header class="sample" >
+		<div class="container-fluid bg-white text-center sticky-top">
+      <div class="row bg-dark ">
+        <div class="col-sm-6 text-white">
+       	<img src="img/2.png"style="height:75px;width:75px;">
+       	Company Name.......
+        </div>
+      	<div class="col-sm-2 text-primary">
+        <a class="nav-link"  data-placement="bottom" title="Home" href="profile.php">Home</a>
+        </div>
+        <div class="col-sm-2 text-primary ">
+        <a class="nav-link"  data-placement="bottom" title="Get a quotes" href="index1.php">Get a quote</a>
+        </div>
+        <div class="col-sm-1 text-primary">
+        <a class="nav-link" data-placement="bottom" title="Gallery" href="About.php">Gallery</a>
+        </div>
+        <div class="col-sm-1 text-primary">
+        <a class="nav-link"  data-placement="bottom" title="Contact" href="event.php">Contact</a>
+        </div>
+       </div>
+    </div>
+
+
+</header>
+<br>
+<br>
+<br>
+<br>
+
+<div class="container">
+ <div class="container-1">
+		<div class="wrap-1">
+			<form class="contact-form validate-form" action="config.php" method="POST">
+				<span class="contact-form-title">
+					<u>Get a quotes</u>
+				</span>
+
+				<label class="label-input" for="first-name">Enter your name *</label>
+				<div class="wrap-input rs1-wrap-input validate-input" data-validate="Type first name">
+					<input id="first-name" class="input" type="text" name="first-name" placeholder="First name">
+					<span class="focus-input"></span>
+				</div>
+				<div class="wrap-input rs2-wrap-input validate-input" data-validate="Type last name">
+					<input class="input" type="text" name="last-name" placeholder="Last name">
+					<span class="focus-input"></span>
+				</div>
+
+				<label class="label-input" for="email">Enter your email *</label>
+				<div class="wrap-input validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<input id="email" class="input" type="text" name="email" placeholder="Enter the Email Address">
+					<span class="focus-input"></span>
+				</div>
+
+				<label class="label-input" for="phone">Enter phone number</label>
+				<div class="wrap-input">
+					<input id="phone" class="input" type="text" name="phone" placeholder="Enter the phone number">
+					<span class="focus-input"></span>
+				</div>
+
+				<label class="label-input" for="message">Message *</label>
+				<div class="wrap-input validate-input" data-validate = "Message is required">
+					<textarea id="message" class="input" name="message" placeholder="Write us a message"></textarea>
+					<span class="focus-input"></span>
+				</div>
+
+				<div class="container-contact-form-btn">
+					<button class="contact-form-btn" name="Send">
+						Send Message
+					</button>
+				</div>
+			</form>
+          
+			<div class="contact flex-col-c-m" style="background-image: url('img/1.jpg');opacity: 0.8;">
+				<div class="flex-w size1 " style="padding-right: 25px;">
+					<div class="txt1 " style="padding-right: 25px;">
+						
+					</div>
+
+					<div class="flex-col size">
+						<span class="txt1" style="padding-bottom:20px">
+							<u>Address</u>
+						</span>
+
+						<span class="txt1">
+							-------------------------------
+						</span>
+					</div>
+				</div>
+                <br>
+                <br>
+				<div class="dis-flex size1 "style="padding-bottom: 45px">
+					<div class="txt1 "style="padding-right: 25px;">
+						
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1" style="padding-bottom: 20px;">
+							<u>Lets Talk</u>
+						</span>
+
+						<span class="txt2">
+							+1 800 1236879
+						</span>
+					</div>
+				</div>
+
+				<div class="dis-flex size1" style="padding-bottom: 45px;">
+					<div class="txt2" style="padding-right:25px;">
+		
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1"  style="padding-bottom: 20px;">
+							<u>General Support</u>
+						</span>
+
+						<span class="txt2">
+						      Email Addrress----------
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<div style="height:100px;"></div>
+ 
+<div style="width: 100%; margin:auto;"  class="text-center">
+
+	<iframe width="100%" height="500" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="25%">
+		<a href="https://www.maps.ie/coordinates.html">latitude longitude finder</a>
+
+</div>
+<br>
+	
+</div>
+
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-23581568-13');
+	</script>
+
+<footer  style="background-color: #00BFFF;">
+		<div class="container-fluid bg-white text-center sticky-top">	
+      <div class="row " style= "background-color:#00BFFF ;color: #ffff;">
+        <div class="col-sm-6 text-white">
+        	<img src="img/2.png"style="height:75px;width:75px;">
+        	   	Company Name.......
+        </div>
+      	<div class="col-sm-2">
+        <a class="nav-link"  data-placement="bottom" title="Home" href="profile.php">Home</a>
+        </div>
+        <div class="col-sm-2  ">
+        <a class="nav-link"  data-placement="bottom" title="Get a quotes" href="index1.php">Get a quote</a>
+        </div>
+        <div class="col-sm-1">
+        <a class="nav-link" data-placement="bottom" title="Gallery" href="About.php">Gallery</a>
+        </div>
+        <div class="col-sm-1">
+        <a class="nav-link"  data-placement="bottom" title="Contact" href="event.php">Contact</a>
+        </div>
+       </div>
+    </div>
+  <div class="text-center">
+   <i class="fa fa-whatsapp" style="font-size:24px"></i>
+   <i class="fa fa-google" style="font-size:24px"></i>
+   <i class="fa fa-facebook" style="font-size:24px"></i>
+   <i class="fa fa-instagram" style="font-size:24px"></i>
+   <i class="fa fa-twitter" style="font-size:24px"></i>
+  </div>
+</footer>
+
+</body>
+</html>
